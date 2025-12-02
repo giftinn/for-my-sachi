@@ -10,7 +10,7 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
   const [password, setPassword] = useState('');
   const [showError, setShowError] = useState(false);
   const [showSuccess, setShowSuccess] = useState(false);
-  const correctPassword = '01102024';
+  const correctPassword = '301225';
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
@@ -154,5 +154,6 @@ const PasswordPage: React.FC<PasswordPageProps> = ({ onNext }) => {
     </div>
   );
 };
+
 
 export default PasswordPage;
