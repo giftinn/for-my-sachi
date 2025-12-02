@@ -10,15 +10,16 @@ const SecretLetterPage: React.FC<SecretLetterPageProps> = ({ onBackToStart }) =>
   const [displayedText, setDisplayedText] = useState('');
   const [showFinalMessage, setShowFinalMessage] = useState(false);
 
-  const fullText = `Happy birthday to the person who owns my heart, even from miles apart.
-I know you've been really busy lately with your studies, and maybe a bit tired or overwhelmed, but I just want you to know how proud I am of you.
-You've been giving your best, even when things get tough, and that's one of the many reasons I love you so much.
-On your special day, I hope you take a little break and remember that you're so loved not just by the people around you, but especially by me.
-I wish I could be there to hug you, to celebrate with you, and to see your smile and hear your voice.
-Even though distance keeps us apart, my heart never left your side.
+  const fullText = `Hii Sachi, i wanna tell you something.
+Honestly… I just care about you a lot. Kayak, no matter what I’m doing, you somehow pop into my mind in the most random moments. And it’s not in a dramatic way, it’s just this warm, steady feeling that doesn’t really go away. 
+Being around you feels comforting, like things make a little more sense.
+The more time I spend with you, the more I realize how much I actually like you. Not because you're trying, but because you just… are you. 
+Your vibe, the way you talk, the way you react to things. it all just hits different for me. You make my days feel lighter without even doing anything special.
+And yeah, I’m saying this honestly: I love you. In a simple, real way. The kind that isn’t loud or complicated, just genuine. 
+I care about you in a way that feels natural, and I hope you know that.
 You're my peace, my favorite person, and the one I always root for.
-I hope this message makes you feel how much I love and miss you.
-Happy birthday, my love`;
+And just so you know, my feelings for you aren’t half-hearted or temporary. I genuinely care about you in a way that feels real and strong, the kind of sayang yang nggak bisa aku jelasin sepenuhnya, tapi it feels so real in every single day. 
+You matter to me, more than you probably realize, and that’s not something that fades easily.`;
 
   useEffect(() => {
     let currentIndex = 0;
@@ -124,5 +125,6 @@ Happy birthday, my love`;
     </div>
   );
 };
+
 
 export default SecretLetterPage;
